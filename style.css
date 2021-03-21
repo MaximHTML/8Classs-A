@@ -95,6 +95,7 @@ body{
     }
 .firstClass img{
         padding-bottom: 15px;
+    text-align: center;
     }
 .beforefooter{
     flex-grow: 1;
@@ -111,4 +112,5 @@ body{
 .Deviz{
       font-size:35px;
      font-family: cursive;
+    padding-bottom: 15px;
     }
