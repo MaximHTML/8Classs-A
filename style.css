@@ -157,6 +157,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+#pr{
+    margin-bottom: 20px;
+    }
 .pr {
     max-width: 330px;
     margin: 12px auto;
