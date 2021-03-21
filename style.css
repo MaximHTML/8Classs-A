@@ -94,8 +94,8 @@ body{
     text-align: center;
     }
 .firstClass img{
-        padding-bottom: 15px;
     text-align: center;
+    border: 2px solid white;
     }
 .beforefooter{
     flex-grow: 1;
@@ -109,8 +109,91 @@ body{
     padding: 15px 0px;
     font-weight: bold;
     }
+#DEVIZ {
+       padding-top: 30px;
+       padding-bottom: 25px;
+    }
 .Deviz{
       font-size:35px;
      font-family: cursive;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     }
+.shop{
+    color:black;
+    padding-top: 20px;
+    }
+.MAG{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+    }
+.products {
+    background-color: #c7d7d8;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+.title{
+        color:Black;
+        text-align: center;
+        padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    }
+.products1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+.pr {
+    background-color: #383838;
+    border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pr {
+    max-width: 330px;
+    margin: 12px auto;
+}
+.pr__photo {
+    max-width: 200px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    height: 250px;
+    width: 200px;
+}
+@media (min-width: 769px)
+.pr__photo {
+    max-width: 300px;
+}
+.pr__txt {
+    font-weight: bold;
+    font-size: 15px;
+    color:aliceblue;
+}
+.pr__price {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pr__buy {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 30px;
+    border-top: 3px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
