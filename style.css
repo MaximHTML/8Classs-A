@@ -91,17 +91,24 @@ body{
 .firstClass{
     background: black;
     color: white;
+    text-align: center;
+    }
+.firstClass img{
+        padding-bottom: 15px;
     }
 .beforefooter{
     flex-grow: 1;
     margin-bottom: 40px;
 }
 .content {
-
-    color: #A8B1B2;
+  color: #A8B1B2;
 }
 .OurClass{
     font-size: 50px;
-    padding-top: 15px;
-    text-align: center;
+    padding: 15px 0px;
+    font-weight: bold;
+    }
+.Deviz{
+      font-size:35px;
+     font-family: cursive;
     }
